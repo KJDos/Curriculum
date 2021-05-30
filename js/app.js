@@ -2,7 +2,7 @@
     var btnBurger = document.querySelector('.btn-burger');
     var nav = document.querySelector('.nav');
     var menu = document.querySelector('.menu');
-
+    var lien = document.querySelectorAll('.lien')
 
     var myFullpage = new fullpage('#fullpage', {
         //responsiveWidth: 900,
@@ -43,3 +43,9 @@
         nav.classList.toggle("extendNav");
         menu.classList.toggle("d-none");
     });
+
+    for (i = 0; i < lien.length; ++i) {
+        lien[i].addEventListener("click", function(){
+            nav.classList.toggle("extendNav");
+        });
+    }
