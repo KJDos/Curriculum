@@ -274,6 +274,7 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: space-evenly;
     flex-wrap: wrap;
 }
 .cercle {
@@ -283,7 +284,7 @@ html{
     width: 120px;
     min-width: 120px;
     height: 120px;
-    margin: 15px;
+    margin-bottom: 15px;
     .texte-cercle{
         margin: auto;
         display: flex;
@@ -300,7 +301,6 @@ html{
 
 .cercle-100 {
     border: 3px solid #252525;
-    //transform: rotate(45deg);
 }
 
 .cercle-75 {
