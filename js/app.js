@@ -5,7 +5,7 @@
     var lien = document.querySelectorAll('.lien')
 
     var myFullpage = new fullpage('#fullpage', {
-        responsiveWidth: 900,
+        responsiveWidth: 1500,
         menu: '#menu',
         anchors: ['qui-suis-je', 'competences', 'formations-et-experiences', 'langues-et-interets'],
         autoScrolling: true,

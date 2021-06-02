@@ -284,7 +284,7 @@ html {
   transform: rotate(-45deg);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1500px) {
   .photo {
     height: 180px;
   }
