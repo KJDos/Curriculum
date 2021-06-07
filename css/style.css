@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 a {
   color: inherit;
   text-decoration: inherit;
@@ -35,12 +39,6 @@ html {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 30px;
-}
-#fullpage .section ul {
-  list-style: none;
-  border-left: 2px solid #919191;
-  padding-bottom: 15px;
-  padding-left: 45px;
 }
 #fullpage .section h3,
 #fullpage .section h4,
@@ -244,6 +242,7 @@ html {
   min-width: 120px;
   height: 120px;
   margin-bottom: 15px;
+  margin-right: 15px;
 }
 .cercle .texte-cercle {
   margin: auto;
@@ -284,7 +283,72 @@ html {
   transform: rotate(-45deg);
 }
 
+.bloc-realisation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+.bloc-realisation .realisation {
+  margin: 5px;
+}
+.bloc-realisation .realisation .card-4-title {
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+}
+.bloc-realisation .realisation .card-4 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.bloc-realisation .realisation .card-4 .shadow {
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.6s;
+  position: absolute;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background-color: #252525;
+}
+.bloc-realisation .realisation .card-4 .shadow .eye {
+  margin: auto;
+}
+.bloc-realisation .realisation .card-4 .screenshot {
+  height: 200px;
+  width: 200px;
+}
+.bloc-realisation .realisation .card-4:hover .shadow {
+  opacity: 0.5;
+  transition: opacity 0.6s;
+}
+
+.realisation-modal {
+  background-color: #252525;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+}
+
 @media only screen and (max-width: 1500px) {
+  .bloc-realisation .realisation {
+    margin: 5px;
+  }
+  .bloc-realisation .realisation .card-4 {
+    width: 120px;
+    height: 120px;
+  }
+  .bloc-realisation .realisation .card-4 .shadow {
+    height: 120px;
+    width: 120px;
+  }
+  .bloc-realisation .realisation .card-4 .screenshot {
+    height: 120px;
+    width: 120px;
+  }
+
   .photo {
     height: 180px;
   }

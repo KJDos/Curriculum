@@ -7,7 +7,7 @@
     var myFullpage = new fullpage('#fullpage', {
         responsiveWidth: 1500,
         menu: '#menu',
-        anchors: ['qui-suis-je', 'competences', 'formations-et-experiences', 'langues-et-interets'],
+        anchors: ['qui-suis-je', 'competences', 'realisations', 'formations-et-experiences', 'langues-et-interets'],
         autoScrolling: true,
         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
 

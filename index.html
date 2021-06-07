@@ -17,15 +17,15 @@
         <ul class="menu" id="menu">
             <li data-menuanchor="qui-suis-je"><a href="#qui-suis-je" class="lien">Qui suis-je ?</a></li>
             <li data-menuanchor="competences"><a href="#competences" class="lien">Compétences</a></li>
+            <li data-menuanchor="realisations"><a href="#realisations" class="lien">Réalisations</a></li>
             <li data-menuanchor="formations-et-experiences"><a href="#formations-et-experiences" class="lien">Formations et expériences</a></li>
             <li data-menuanchor="langues-et-interets"><a href="#langues-et-interets" class="lien">Langues et interêts</a></li>
         </ul>
     </div>
 
-
     <div id="fullpage">
 
-    <div class="section qui-suis-je">
+    <div class="section qui-suis-je" id="section0">
         <div class="bloc-qui-suis-je">
             <div class="title">
                 <h1>Developpeur Web</h1>
@@ -39,7 +39,7 @@
 
             <div class="contact">
                 <h2>Contact</h2>
-                <a href="https://www.github.com/KJDos"><i class="icon-github-circled"></i>Github.com/KJDos</a>
+                <a href="https://www.github.com/KJDos" target="_blank"><i class="icon-github-circled"></i>Github.com/KJDos</a>
                 <a href="tel:+33632317491"><i class="icon-mobile"></i> 06 32 31 74 91</a>
                 <a href="tel:+33322510185"><i class="icon-phone"></i> 03 22 51 01 85</a>
                 <a href="mailto:hassan.allalou@gmail.com"><i class="icon-mail-alt"></i><span class="reduceMail">hassan.allalou</span>@gmail.com</a>
@@ -47,13 +47,13 @@
 
             <div class="btn-scroll">
                 <a href="#competences">
-                    <img src="/img/scroll.png" alt="scroll">
+                    <img src="/img/scroll.png" alt="scroll-icon">
                 </a>
             </div>
         </div>
     </div>
 
-    <div class="section competences" id="section0">
+    <div class="section competences" >
         
         <div class="bloc-card">
             <h2>Compétences</h2>
@@ -181,7 +181,69 @@
 
     </div><!--section-->
 
-    <div class="section" id="section1">
+    <div class="section realisations">
+        <h2>Realisations</h2>
+        <div class="bloc-realisation">
+            <div class="realisation">
+                <div class="card-4-title">
+                    <h4>Miam Book</h4>
+                </div>
+                <div class="card-4">
+                    <a href="https://github.com/KJDos/Miam-Book" target="_blank">
+                        <div class="shadow">
+                            <img class="eye" src="img/eye.png" alt="">
+                        </div>
+                        <img class="screenshot" src="/img/lemiambook.jpg" alt="le-miam-book">
+                    </a>
+                 </div><!--card-4-->
+            </div><!--/realisation-->
+
+            <div class="realisation">
+                <div class="card-4-title">
+                    <h4>Cards</h4>
+                </div>
+                <div class="card-4">
+                    <a href="https://github.com/KJDos/cards" target="_blank">
+                        <div class="shadow">
+                            <img class="eye" src="img/eye.png" alt="">
+                        </div>
+                        <img class="screenshot" src="/img/cards.jpg" alt="cards">
+                    </a>
+                 </div><!--card-4-->
+            </div><!--/realisation-->
+
+            <div class="realisation">
+                <div class="card-4-title">
+                    <h4>Budget</h4>
+                </div>
+                <div class="card-4">
+                    <a href="https://github.com/KJDos/Budget" target="_blank">
+                        <div class="shadow">
+                            <img class="eye" src="img/eye.png" alt="">
+                        </div>
+                        <img class="screenshot" src="img/budget.jpg" alt="budget">
+                    </a>
+                 </div><!--card-4-->
+            </div><!--/realisation-->
+
+            <div class="realisation">
+                <div class="card-4-title">
+                    <h4>Miam book alt</h4>
+                </div>
+                <div class="card-4">
+                    <a href="https://github.com/KJDos/Miam-book-alternative-theme" target="_blank">
+                        <div class="shadow">
+                            <img class="eye" src="img/eye.png" alt="">
+                        </div>
+                        <img class="screenshot" src="img/theme-miam-book.jpg" alt="miam-book-alternatif">
+                    </a>
+                 </div><!--card-4-->
+            </div><!--/realisation-->
+
+        </div><!--/bloc-realisation-->
+    </div><!--/section-->
+
+    <div class="section" >
         
         <div class="bloc-card">
             <h2>Formations</h2>
@@ -274,6 +336,7 @@
 
     <script src="js/fullpage.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/realisations.js"></script>
 
 </body>
 </html>
